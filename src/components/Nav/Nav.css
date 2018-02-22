@@ -1,0 +1,30 @@
+
+.nav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #202030;
+}
+
+.nav_content ui {
+    padding-block-start: 0;
+}
+.nav_content li {
+    list-style: none;
+    padding: 16px 0 16px 0;
+}
+.nav_item a.nav_link {
+    padding: 8px;
+    font-size: 25px;
+    color: #818181;
+    text-decoration: none;
+}
+.nav_item a:hover {
+    color: #f1f1f1;
+}
+.nav_item a.nav_link i {
+    padding-right: 8px;
+    font-size: 16px;
+}
